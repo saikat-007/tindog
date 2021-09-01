@@ -1,0 +1,145 @@
+body{
+    font-family: 'Montserrat';
+}
+#title{
+    background-color:#ff4c68;
+    
+}
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.3rem !important;
+    line-height: 1.5 !important;
+    color: whitesmoke;
+}
+h2{
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder !important;
+    font-size: 3.5rem !important;
+    line-height: 1.5 !important;
+}
+.container-fluid{
+    padding:3% 15% 5% !important;
+}
+h3{
+    font-family: 'Montserrat Black900', sans-serif;
+    font-weight: bold !important;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* navigation bar */
+.nav-item{
+    margin:0rem 2.1rem;
+}
+.navbar{
+    padding: 0 0 4.5rem !important;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+    font-family: 'Montserrat-light';
+    font-weight: bold;
+}
+.navbar-brand{
+    font-family: 'Montserrat-Bold';
+    font-size: 2.5rem !important;
+    font-weight: bolder !important;
+    /* padding-left: 2%; */
+}
+.row button{
+    margin: 10% 0%;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    /* margin-left: 20px; */
+}
+/* Feature */
+.feature-box{
+    padding: 5%;
+    text-align: center;
+}
+#features{
+    padding:8% 12%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    color:#ef8172;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: whitesmoke;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+/* press section */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 12%;
+}
+/* pricing */
+#pricing{
+    padding: 10%!important;
+    text-align: center;
+}
+/* .card3{
+    height: 411px !important;;
+} */
+.card12{
+    margin-bottom: 58px!important;
+}
+.column{
+    padding: 5% 3%;
+}
+@media (max-width:1028px) {
+    #title{
+
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 14%;
+    color: whitesmoke;
+}
+#cta h3{
+    font-size: 45px !important;
+    font-family: 'Montserrat Black900', sans-serif;
+    padding-bottom: 20px;
+}
+#footer{
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+#footer p{
+    padding-top: 6px;
+}
+.social{
+    padding: 5px;
+}
